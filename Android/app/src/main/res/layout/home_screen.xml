@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Pool Health"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.33" />
+
+    <TableRow android:layout_marginTop="40dp">
+        <Button android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:text="Enter"
+            android:id="@+id/enter"
+            android:layout_weight="0.15"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"
+            />
+
+        <Button android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:text="Clear"
+            android:id="@+id/clear"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+        <Button android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:text="Enter1"
+            android:id="@+id/enter1"
+            android:layout_weight="0.15"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"
+            />
+
+        <Button android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:text="Clear1"
+            android:id="@+id/clear1"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="20dp">
+        <Button android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:text="Enter2"
+            android:id="@+id/enter2"
+            android:layout_weight="0.15"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"
+            />
+
+        <Button android:layout_width="155dp"
+            android:layout_height="130dp"
+            android:text="Clear2"
+            android:id="@+id/clear2"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/main_button"
+            style="@style/button_text"
+            />
+    </TableRow>
+</TableLayout>
+
